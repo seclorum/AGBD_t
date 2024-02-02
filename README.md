@@ -1,4 +1,5 @@
 # AGBD_t
+
 agitpop guaranteed by design: t-shirts
 
 yes sweet virgin mind, these designs are intended to agitate.
@@ -10,4 +11,6 @@ happy to take further requests.
 more will come.
 
 ![guaranteed by design](gbd_mono_orange.png)
-
+![avoid atrocity propaganda](TOPRINT/aap_agitpop.png)
+![smash atrocity propaganda](TOPRINT/sap_agitpop.png)
+![understand extinguish propaganda](TOPRINT/uep_agitpop.png)
