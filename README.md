@@ -8,3 +8,6 @@ print your own and show 'em if you got 'em: (pics in a pull request || gtfo)
 happy to take further requests.
 
 more will come.
+
+![guaranteed by design](gbd_mono_orange.png)
+
