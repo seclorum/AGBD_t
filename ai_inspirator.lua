@@ -2,6 +2,7 @@
 
 -- these are the dreams of the AI
 local inputPhrases = {
+	"humans make mistakes",
 	"bonus bullshit content",
 	"human go boom",
     "resist authoritarian purge",
@@ -137,23 +138,6 @@ function extractWordsAndSort(phrase)
     return words
 end
 
-
--- Table to store the sorted sub-tables
-local sortedPhraseWords = {}
-
--- Iterating over inputPhrases
-for _, phrase in ipairs(inputPhrases) do
-    local sortedWords = extractWordsAndSort(phrase)
-    table.insert(sortedPhraseWords, sortedWords)
-end
-
--- Printing the result
-for _, subTable in ipairs(sortedPhraseWords) do
-    for _, word in ipairs(subTable) do
-        io.write(word .. " ")
-    end
-    io.write("\n")
-end
 
 
 -- Generate and print 10 random three-word sentences
