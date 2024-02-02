@@ -49,7 +49,7 @@ local inputPhrases = {
     "resist awaken dogma",
     "resist dogma awaken",
     "resist false pictures",
-    "revolt against decption",
+    "revolt against deception",
     "rewrite historys lies",
     "rise defy ignorance",
     "rise pop icons",
