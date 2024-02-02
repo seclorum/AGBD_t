@@ -65,6 +65,30 @@ local inputPhrases = {
 
 
 
+function generatePhraseWordsList()
+	local sortedPhraseWords = {}
+
+	for _, phrase in ipairs(inputPhrases) do
+		for word in phrase:gmatch("%S+") do
+			--print("word:", word)
+			if (sortedPhraseWords[word] == nil) then
+				sortedPhraseWords[word] = word
+        		table.insert(sortedPhraseWords, word)
+			end
+    	end
+	end
+
+	table.sort(sortedPhraseWords) 
+ 
+	for _, word in ipairs(sortedPhraseWords) do
+		io.write(word .. "/")
+	end
+	
+	io.write("\n")
+end
+
+
+
 -- Function to tokenize a phrase into words
 local function tokenize(phrase)
     local words = {}
@@ -101,9 +125,41 @@ local function generateSentence(phrases)
     return newSentence
 end
 
+-- Function to extract words from a phrase and create a sorted sub-table
+function extractWordsAndSort(phrase)
+    local words = {}
+    -- Using string.gmatch to iterate over words in the phrase
+    for word in phrase:gmatch("%S+") do
+        table.insert(words, word)
+    end
+    -- Sorting the words alphabetically
+    table.sort(words)
+    return words
+end
+
+
+-- Table to store the sorted sub-tables
+local sortedPhraseWords = {}
+
+-- Iterating over inputPhrases
+for _, phrase in ipairs(inputPhrases) do
+    local sortedWords = extractWordsAndSort(phrase)
+    table.insert(sortedPhraseWords, sortedWords)
+end
+
+-- Printing the result
+for _, subTable in ipairs(sortedPhraseWords) do
+    for _, word in ipairs(subTable) do
+        io.write(word .. " ")
+    end
+    io.write("\n")
+end
+
+
 -- Generate and print 10 random three-word sentences
 for i = 1, 10 do
     local randomSentence = generateSentence(inputPhrases)
     print(randomSentence)
 end
 
+generatePhraseWordsList()
