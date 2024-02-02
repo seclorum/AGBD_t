@@ -2,6 +2,7 @@
 
 -- these are the dreams of the AI
 local inputPhrases = {
+	"human go boom",
     "resist authoritarian purge",
     "avoid atrocity propaganda",
     "awaken against dogma",
