@@ -2,6 +2,12 @@
 
 -- these are the dreams of the AI
 local inputPhrases = {
+	"three word philosophy",
+	"embrace literal plasticity",
+	"guaranteed by design",
+	"avoid atrocity propaganda",
+	"smash atroctiy propaganda",
+	"study extinguish propaganda",
     "resist dogma awaken",
     "truth obliterates deceit",
     "fight justices war",
