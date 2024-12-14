@@ -10,7 +10,7 @@ happy to take further requests.
 
 more will come.
 
-![acthung snowy][TOPRINT/achtungSnowy_TOPRINT.png]
+![achtung snowy][TOPRINT/achtungSnowy_TOPRINT.png]
 ![guaranteed by design](gbd_mono_orange.png)
 ![avoid atrocity propaganda](TOPRINT/aap_agitpop.png)
 ![smash atrocity propaganda](TOPRINT/sap_agitpop.png)
