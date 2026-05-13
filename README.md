@@ -15,3 +15,4 @@ more will come.
 ![avoid atrocity propaganda](TOPRINT/aap_agitpop.png)
 ![smash atrocity propaganda](TOPRINT/sap_agitpop.png)
 ![understand extinguish propaganda](TOPRINT/uep_agitpop.png)
+![gang is lit](TOPRINT/gang_is_lit.png)
